@@ -1,35 +1,35 @@
-int startX = 450;
-int startY = 198;
-int endX = 450;
+int startX = 300;
+int startY = 133;
+int endX = 300;
 int endY = 0;
 void setup()
 {
-  size(900,900);
+  size(600,600);
   background(0, 0, 0);
   strokeWeight(7);
   stroke(168,168,168);
-  line(450, 0, 450, 45);
+  line(300, 0, 300, 30);
   strokeWeight(3);
 }
 void draw()
 {
   noStroke();
   fill(0, 0, 0, 15);
-  rect(0, 197, 900, 703);
+  rect(0, 132, 600, 468);
   stroke((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
-  while (endY < 900) {
+  while (endY < 600) {
    fill(255, 255, 255);
-   ellipse(450, 120, 150, 150);
-   line(405, 60, 405, 180);
-   line(435, 48, 435, 192);
-   line(465, 48, 465, 192);
-   line(495, 60, 495, 180);
-   line(390, 75, 510, 75);
-   line(378, 105, 522, 105);
-   line(378, 135, 522, 135);
-   line(390, 165, 510, 165);
-   endX = startX + (int)(Math.random() * 105 - 54);
-   endY = startY + (int)(Math.random() * 30);
+   ellipse(300, 80, 100, 100);
+   line(270, 40, 270, 120);
+   line(290, 32, 290, 128);
+   line(310, 32, 310, 128);
+   line(330, 40, 330, 120);
+   line(260, 50, 340, 50);
+   line(252, 70, 348, 70);
+   line(252, 90, 348, 90);
+   line(260, 110, 340, 110);
+   endX = startX + (int)(Math.random() * 70 - 36);
+   endY = startY + (int)(Math.random() * 20);
    line(startX, startY, endX, endY);
    startX = endX;
    startY = endY;
@@ -37,8 +37,8 @@ void draw()
 }
 void mousePressed()
 {
-  startX = 450;
-  startY = 198;
-  endX = 450;
+  startX = 300;
+  startY = 133;
+  endX = 300;
   endY = 0;
 }

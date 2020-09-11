@@ -24,10 +24,10 @@ void draw()
    line(290, 32, 290, 128);
    line(310, 32, 310, 128);
    line(330, 40, 330, 120);
-   line(260, 50, 340, 50);
-   line(252, 70, 348, 70);
-   line(252, 90, 348, 90);
-   line(260, 110, 340, 110);
+   line(260, 50, 338, 50);
+   line(252, 70, 346, 70);
+   line(252, 90, 346, 90);
+   line(260, 110, 338, 110);
    endX = startX + (int)(Math.random() * 70 - 36);
    endY = startY + (int)(Math.random() * 20);
    line(startX, startY, endX, endY);

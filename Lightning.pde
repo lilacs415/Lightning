@@ -15,11 +15,11 @@ void draw()
 {
   noStroke();
   fill(0, 0, 0, 5);
-  rect(0, 67.5, 300, 232);
+  rect(0, 67, 300, 232);
   stroke((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
   while (endY < 300) {
    fill(255, 255, 255);
-   circle(150, 40, 50);
+   ellipse(150, 40, 50, 50);
    line(135, 25, 135, 55);
    line(145, 18, 145, 62);
    line(155, 18, 155, 62);
